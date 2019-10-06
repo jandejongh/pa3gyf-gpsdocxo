@@ -36,6 +36,8 @@ introducing an isolator for separation of the PLL and output signals from the OC
 and designed and implemented a Low-Noise Amplifier for the OCXO signal in case (well, almost always)
 the OCXO is insufficient to properly activate the Schmitt-Triggers of the PLL circuit.
 
+My explicit thank-yous to Frank van Vliet for his interest in this project.
+
 ## Conclusion
 
 Designing and realizing this project has been a true joy!
