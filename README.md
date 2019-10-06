@@ -44,10 +44,27 @@ Designing and realizing this project has been a true joy!
 
 Currently, my interest has somewhat shifted towards the accuracy of power reading of my equipment,
 so I do not expect updates soon.
-However, it is still on my wishlist to use and ADC with higher resolution and accuracy than the Arduino
-10-bit circuits. Also, I want to study the locked status of the PLL by simply counting the pulses on both
+
+However, it is still on my wishlist to use an ADC with higher resolution and accuracy than the Arduino
+10-bit circuits in order to assess PLL lock status.
+Also, I want to study the PLL status by simply counting the pulses on both
 inputs over varying intervals, in order to more accurately quantify the PLL locked status (e.g., 10-4 over
 the last second, 10-6 over the past 10 minutes, 10-7 over the past hour, etc.).
+I would also love to improve the RS232-C circuit in such a way that it can be used directly as an
+input to Linux gpsd and ntp/chrony as a PPS-capable time source.
+At the present time, this does not work.
+Finally, I would love an Ethernet interface for monitoring and control of the unit.
+
+Unfortunately, at the present time, two hurdles would need to be taken.
+First, the availability of the required GPS receiver is (AFAICT) close to zero,
+and I would have to switch to 1PPS use.
+Second, the memory availability on the current Arduino models is really WAY TOO LOW.
+I almost forgot what the K symbol means in a computer-memory context.
+
+So, all in all, it might be better to wait for more powerful Arduino models,
+and perhaps think of a 1 PPS design.
+
+Who knows...
 
 ## License
 
