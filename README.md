@@ -38,6 +38,26 @@ the OCXO is insufficient to properly activate the Schmitt-Triggers of the PLL ci
 
 My explicit thank-yous to Frank van Vliet for his interest in this project.
 
+## Structure of the Repository
+
+The repository is organized as follows:
+- doc:           Contains documentation; mandatory reading (in particular the 'manual')
+                   if you want to rebuilt this project,
+                   or use it as a basis for your own design.
+- fpd:           Contains the front and rear panel designs (for Schaeffer, www.schaeffer-ag.de, front-panel designer).
+- fw:            Contains the Arduino firmware; a single file for both Uno and Micro (compile-time switch!).
+- pcb:           Contains the KiCAD PCB designs for this project.
+                 The PCBs were originally designed in KiCAD v3 (well, some v3),
+                   and I migrated the crucial ones (part of V1) to KiCAD v4.
+- pcb/v1-kicad3: Contains the (original) KiCAD-V3xx PCB designs for all PCBs,
+                   including earlier versions that had faults,
+                   and including the ones for the Arduino Uno.
+                 The KiCAD projects also contain a lot of 3D shape definitions.
+- pcb/v1-kicad4: Contains the KiCAD-V4xx PCB designs for the essential PCBs in the V1 unit.
+                 It does not include previous PCB versions nor the Arduino Uno PCBs.
+                 Also, it does not include most of the 3D shapes for the 3D view.
+- transformer:   Contains details on the transformer used for the Power Supply Unit.
+
 ## Conclusion
 
 Designing and realizing this project has been a true joy!
