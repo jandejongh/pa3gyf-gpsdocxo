@@ -8,3 +8,11 @@
 		with dimensions (A x B x C): 80 x 200 x 132mm (-> H x W x D),
 		except that the dimensions are different.
 	- Looks like we have a unit from this series, but with different dimensions.
+	- The front and rear panel dimensions used for Schaeffer were 246.5x78 [mm] (WxH),
+	  so "our" unit is (probably) the same height (80mm), but a tad wider
+	  (could it be 250mm wide?).
+	- The outer dimensions of "my" unit are 80 x 248 x 180 (HxWxD) measured on 20191006,
+	  with estimated accuracy of 2 mm. Note that the width does not include the dark-brown
+	  extensions "in the middle" of the enclosure, so a 80x250x180 estimate seems reasonable.
+	- So all we can say now is that we used a wider and deeper version of the Velleman L750 with
+	  (probable) outer dimensions 80x250x180 (HxWxD) but certainly from the same series.
