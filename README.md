@@ -44,6 +44,9 @@ The repository is organized as follows:
 - doc:           Contains documentation; mandatory reading (in particular the 'manual')
                    if you want to rebuilt this project,
                    or use it as a basis for your own design.
+                 Most if not all documentation is written with OpenOffice,
+                   but I try to keep a set of PDFs in sync,
+                   for those that cannot use OpenOffice.
 - fpd:           Contains the front and rear panel designs (for Schaeffer, www.schaeffer-ag.de, front-panel designer).
 - fw:            Contains the Arduino firmware; a single file for both Uno and Micro (compile-time switch!).
 - pcb:           Contains the KiCAD PCB designs for this project.
