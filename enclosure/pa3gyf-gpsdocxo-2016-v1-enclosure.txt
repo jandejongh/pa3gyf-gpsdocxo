@@ -8,3 +8,6 @@
 		with dimensions (A x B x C): 80 x 200 x 132mm (-> H x W x D),
 		except that the dimensions are different.
 	- Looks like we have a unit from this series, but with different dimensions.
+	- The front and rear panel dimensions used for Schaeffer were 246.5x78 [mm] (WxH),
+	  so "our" unit is (probably) the same height (80mm), but a tad wider
+	  (could it be 250mm wide?).
