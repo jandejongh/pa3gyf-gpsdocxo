@@ -1,0 +1,10 @@
+20191006: Jan de Jongh
+	- I built the V1 with a Velleman aluminium enclosure; I used them a lot in the past,
+	    and still own half a dozen or so boxes hosting projects or in the spare-parts section.
+	- Unfortunately, it seems that Velleman no longer (2019) sells this line of enclosures.
+	- I have a hard time figuring out the part number, but reasonably close is:
+		Velleman L750 - METAL HOUSING CASSETTE - 80 x 200 x 132mm 
+		from https://www.velleman.eu/products/view/?country=nl&lang=en&id=11247
+		with dimensions (A x B x C): 80 x 200 x 132mm (-> H x W x D),
+		except that the dimensions are different.
+	- Looks like we have a unit from this series, but with different dimensions.
