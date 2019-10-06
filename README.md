@@ -54,9 +54,11 @@ The repository is organized as follows:
                    and including the ones for the Arduino Uno.
                  The KiCAD projects also contain a lot of 3D shape definitions.
 - pcb/v1-kicad4: Contains the KiCAD-V4xx PCB designs for the essential PCBs in the V1 unit.
+                 It is a subset of the pcb/v1-kicad3 KiCAD projects migrated to KiCAD V4.
                  It does not include previous PCB versions nor the Arduino Uno PCBs.
                  Also, it does not include most of the 3D shapes for the 3D view.
 - transformer:   Contains details on the transformer used for the Power Supply Unit.
+- enclosure:     Contains details on the Velleman enclosure (I) used.
 
 ## Conclusion
 
