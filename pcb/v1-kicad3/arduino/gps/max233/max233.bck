@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX233_DIP
+D RS232 Line Driver
+K RS232
+$ENDCMP
+#
+#End Doc Library

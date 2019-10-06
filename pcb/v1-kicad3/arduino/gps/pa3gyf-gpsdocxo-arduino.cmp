@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Wed 26 Oct 2016 03:00:44 PM CEST
+
+BeginCmp
+TimeStamp = /580F84C5;
+Reference = C1;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /580E9726;
+Reference = C2;
+ValeurCmp = 22u;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /580E920B;
+Reference = C3;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /580D3B35;
+Reference = C4;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /580F7887;
+Reference = C5;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5811D44D;
+Reference = C6;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5810D276;
+Reference = D1;
+ValeurCmp = 1N4148;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5810D32D;
+Reference = D2;
+ValeurCmp = 1N4148;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /580EA0A3;
+Reference = D8;
+ValeurCmp = 1N4148;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /580CBA56;
+Reference = P1;
+ValeurCmp = CONN_FP_GPS;
+IdModule  = Pin_Headers:Pin_Header_Angled_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /580CBF0D;
+Reference = P3;
+ValeurCmp = CONN_GPS_RS232;
+IdModule  = Pin_Headers:Pin_Header_Angled_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /580CBFB6;
+Reference = P4;
+ValeurCmp = CONN_BP_RS232;
+IdModule  = Pin_Headers:Pin_Header_Angled_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /580D6AF2;
+Reference = Q2;
+ValeurCmp = BC547;
+IdModule  = Housings_TO-92:TO-92_Rugged;
+EndCmp
+
+BeginCmp
+TimeStamp = /5811B2A5;
+Reference = R1;
+ValeurCmp = 4k7;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /580D5B14;
+Reference = R7;
+ValeurCmp = 270R;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /580D5A0D;
+Reference = R8;
+ValeurCmp = 270R;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /580D5773;
+Reference = R17;
+ValeurCmp = 1k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /580D6BC1;
+Reference = R18;
+ValeurCmp = 270R;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /580D6CA1;
+Reference = R19;
+ValeurCmp = 4k7;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /580C8837;
+Reference = SHIELD1;
+ValeurCmp = ARDUINO_SHIELD;
+IdModule  = freetronics_footprints:ARDUINO_SHIELD;
+EndCmp
+
+BeginCmp
+TimeStamp = /580D0991;
+Reference = U1;
+ValeurCmp = MAX233_DIP;
+IdModule  = Housings_DIP:DIP-20__300_ELL;
+EndCmp
+
+EndListe

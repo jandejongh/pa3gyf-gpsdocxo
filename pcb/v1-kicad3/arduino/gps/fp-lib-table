@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Arduino_Shield_Modules_for_KiCad_V3)(type Legacy)(uri ${KIPRJMOD}/Arduino_Shield_Modules_for_KiCad_V3)(options "")(descr ""))
+  (lib (name via)(type KiCad)(uri ${KIPRJMOD}/via.pretty)(options "")(descr ""))
+)

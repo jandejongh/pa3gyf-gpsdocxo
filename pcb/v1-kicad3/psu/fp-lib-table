@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name elkos)(type KiCad)(uri ${KIPRJMOD}/elkos.pretty)(options "")(descr ""))
+  (lib (name Gajda_power)(type Legacy)(uri ${KIPRJMOD}/gajda_power/Gajda_power.mod)(options "")(descr ""))
+  (lib (name weidmuller)(type KiCad)(uri ${KIPRJMOD}/weidmuller.pretty)(options "")(descr ""))
+)

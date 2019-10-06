@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74AC14
+D Hex Inverter with Schmitt Trigger Input
+F /home/jan/HAM/HardDev/pa3gyf-kicad-lib/doc/FAIRCHILD_74AC_14.pdf
+$ENDCMP
+#
+$CMP 74AC86
+D Quad 2-Input Exclusive-OR Gate
+F /home/jan/HAM/HardDev/pa3gyf-kicad-lib/doc/FAIRCHILD_74AC_86.pdf
+$ENDCMP
+#
+#End Doc Library

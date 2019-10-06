@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name MORION_FULLMETA)(type KiCad)(uri ${KIPRJMOD}/morion/MORION_FULLMETA.pretty)(options "")(descr ""))
+  (lib (name MiniCircuits)(type KiCad)(uri ${KIPRJMOD}/mini-circuits-adp-2-1/kicad-lib-minicircuits/modules/MiniCircuits.pretty)(options "")(descr ""))
+  (lib (name via)(type KiCad)(uri ${KIPRJMOD}/via.pretty)(options "")(descr ""))
+)

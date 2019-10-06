@@ -1,0 +1,12 @@
+20191006 Jan de Jongh:
+	- Migrated the project from the Kicad3 project tree.
+	- Renamed the project.
+	- Used old cached lib, renamed it as a safeguard.
+	- Modified .proj and other files to remove obsolete, stale and absolute references.
+	- Removed 3d and other libraries that did not work.
+	- Removed pdf files (but kept the relevant gerber files).
+	- Hand-copied the pa3gyf-kicad lib and updated references.
+	- Tried with eeschema and pcbnew -> seemed OK.
+	- ERC and DRC gave warnings, but not too seriously at first sight.
+	- 3D view, however, shows not all components...
+	- Should now be a stand-alone project.

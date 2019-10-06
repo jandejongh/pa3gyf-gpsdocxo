@@ -1,0 +1,8 @@
+Transformer Used
+================
+
+pa3gyf-gpsdocxo [r1]
+Amplimo 17061
+Batch 86804
+PRI. 2x115V BROWN-WHITE BLACK-PINK
+SEC. 2x7.5V 2A RED-YELLOW BLUE-GREY

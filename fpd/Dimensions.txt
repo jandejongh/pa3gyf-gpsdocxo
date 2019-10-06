@@ -1,0 +1,5 @@
+Front/Rear Panels:
+246.5x78 [mm], thickness=1.5mm
+
+
+Velleman L750 [is different!]: 7.874 [== 3.1"]

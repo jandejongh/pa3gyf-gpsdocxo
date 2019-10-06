@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74AC86
+D Quad 2-Input Exclusive-OR Gate
+F /home/jan/HAM/HardDev/pa3gyf-kicad-lib/doc/FAIRCHILD_74AC_86.pdf
+$ENDCMP
+#
+#End Doc Library
