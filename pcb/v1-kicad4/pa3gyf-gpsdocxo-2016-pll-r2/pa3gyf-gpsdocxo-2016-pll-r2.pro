@@ -1,4 +1,4 @@
-update=Fri 27 Sep 2019 06:12:58 PM CEST
+update=Wed 09 Oct 2019 10:00:54 PM CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -31,6 +31,16 @@ version=1
 LibDir=
 [eeschema/libraries]
 LibName1=pa3gyf-gpsdocxo-2016-pll-r2-cache-saved
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 # LibName1=pa3gyf-gpsdocxo-pll-rescue
 # LibName2=power
 # LibName3=device
@@ -65,13 +75,3 @@ LibName1=pa3gyf-gpsdocxo-2016-pll-r2-cache-saved
 # LibName32=/home/jan/HAM/HardDev/pa3gyf-gpsdocxo-2016/pcb/github.com_KiCad_kicad-library/kicad-library/library/74xx
 # LibName33=/home/jan/HAM/HardDev/pa3gyf-kicad-lib/pa3gyf-kicad
 # LibName34=/home/jan/HAM/HardDev/pa3gyf-gpsdocxo-2016/pcb/ocxo/relay-songle-srd-12vdc-sl-c/SONGLE_RELAYS
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60

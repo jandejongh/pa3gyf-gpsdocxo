@@ -1,22 +1,9 @@
-update=Sun 06 Oct 2019 04:38:50 PM CEST
+update=Wed 09 Oct 2019 08:39:21 PM CEST
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -44,6 +31,16 @@ version=1
 LibDir=
 [eeschema/libraries]
 LibName1=pa3gyf-gpsdocxo-2016-psu-r3-cache-saved
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 # LibName2=power
 # LibName3=device
 # LibName4=transistors
