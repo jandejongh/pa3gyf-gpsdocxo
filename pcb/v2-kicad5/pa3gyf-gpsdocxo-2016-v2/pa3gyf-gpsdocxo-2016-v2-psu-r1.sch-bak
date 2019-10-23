@@ -1,0 +1,249 @@
+EESchema Schematic File Version 4
+LIBS:pa3gyf-gpsdocxo-2016-v2-cache
+LIBS:pa3gyf-gpsdocxo-ocxo-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5DA7EF55
+P 900 2900
+F 0 "J?" H 818 2675 50  0000 C CNN
+F 1 "Screw_Terminal_01x01" H 818 2766 50  0000 C CNN
+F 2 "" H 900 2900 50  0001 C CNN
+F 3 "~" H 900 2900 50  0001 C CNN
+	1    900  2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5DA83BF8
+P 900 2100
+F 0 "J?" H 818 1875 50  0000 C CNN
+F 1 "Screw_Terminal_01x01" H 818 1966 50  0000 C CNN
+F 2 "" H 900 2100 50  0001 C CNN
+F 3 "~" H 900 2100 50  0001 C CNN
+	1    900  2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth_Protective #PWR0101
+U 1 1 5DA9963F
+P 1300 3100
+F 0 "#PWR0101" H 1550 2850 50  0001 C CNN
+F 1 "Earth_Protective" H 1750 2950 50  0001 C CNN
+F 2 "" H 1300 3000 50  0001 C CNN
+F 3 "~" H 1300 3000 50  0001 C CNN
+	1    1300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5DAA4193
+P 900 1700
+F 0 "J?" H 818 1475 50  0000 C CNN
+F 1 "Screw_Terminal_01x01" H 818 1566 50  0000 C CNN
+F 2 "" H 900 1700 50  0001 C CNN
+F 3 "~" H 900 1700 50  0001 C CNN
+	1    900  1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5DB121AD
+P 4350 1450
+F 0 "C?" H 4468 1496 50  0000 L CNN
+F 1 "CP" H 4468 1405 50  0000 L CNN
+F 2 "" H 4388 1300 50  0001 C CNN
+F 3 "~" H 4350 1450 50  0001 C CNN
+	1    4350 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5DB12A47
+P 4750 1450
+F 0 "C?" H 4868 1496 50  0000 L CNN
+F 1 "CP" H 4868 1405 50  0000 L CNN
+F 2 "" H 4788 1300 50  0001 C CNN
+F 3 "~" H 4750 1450 50  0001 C CNN
+	1    4750 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1600 4750 1600
+$Comp
+L Device:R R?
+U 1 1 5DB99F85
+P 5150 1450
+F 0 "R?" H 5220 1496 50  0000 L CNN
+F 1 "R" H 5220 1405 50  0000 L CNN
+F 2 "" V 5080 1450 50  0001 C CNN
+F 3 "~" H 5150 1450 50  0001 C CNN
+	1    5150 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 1600 5150 1600
+Connection ~ 4750 1600
+Wire Wire Line
+	4750 1300 5150 1300
+$Comp
+L Device:CP C?
+U 1 1 5DBB488E
+P 4350 2200
+F 0 "C?" H 4468 2246 50  0000 L CNN
+F 1 "CP" H 4468 2155 50  0000 L CNN
+F 2 "" H 4388 2050 50  0001 C CNN
+F 3 "~" H 4350 2200 50  0001 C CNN
+	1    4350 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4470 2080 4470 2070
+$Comp
+L Device:CP C?
+U 1 1 5DBB4899
+P 4750 2200
+F 0 "C?" H 4868 2246 50  0000 L CNN
+F 1 "CP" H 4868 2155 50  0000 L CNN
+F 2 "" H 4788 2050 50  0001 C CNN
+F 3 "~" H 4750 2200 50  0001 C CNN
+	1    4750 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2350 4750 2350
+$Comp
+L Device:R R?
+U 1 1 5DBB48A4
+P 5150 2200
+F 0 "R?" H 5220 2246 50  0000 L CNN
+F 1 "R" H 5220 2155 50  0000 L CNN
+F 2 "" V 5080 2200 50  0001 C CNN
+F 3 "~" H 5150 2200 50  0001 C CNN
+	1    5150 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2350 5150 2350
+Connection ~ 4750 2350
+Wire Wire Line
+	4350 2050 4750 2050
+Wire Wire Line
+	4750 2050 5150 2050
+Connection ~ 4750 2050
+$Comp
+L power:GND #PWR0103
+U 1 1 5DBB48B5
+P 4750 2350
+F 0 "#PWR0103" H 4750 2100 50  0001 C CNN
+F 1 "GND" H 4755 2177 50  0000 C CNN
+F 2 "" H 4750 2350 50  0001 C CNN
+F 3 "" H 4750 2350 50  0001 C CNN
+	1    4750 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1700 2100 1700
+Wire Wire Line
+	1100 2100 2100 2100
+Wire Wire Line
+	1100 2900 1300 2900
+Wire Wire Line
+	1300 2900 1300 3100
+$Comp
+L Device:D_Bridge_+-AA D?
+U 1 1 5DAA031F
+P 3350 1400
+F 0 "D?" V 3396 1056 50  0000 R CNN
+F 1 "D_Bridge_+-AA" V 3305 1056 50  0000 R CNN
+F 2 "" H 3350 1400 50  0001 C CNN
+F 3 "~" H 3350 1400 50  0001 C CNN
+	1    3350 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Bridge_+-AA D?
+U 1 1 5DAA2B95
+P 3350 2400
+F 0 "D?" V 3396 2056 50  0000 R CNN
+F 1 "D_Bridge_+-AA" V 3305 2056 50  0000 R CNN
+F 2 "" H 3350 2400 50  0001 C CNN
+F 3 "~" H 3350 2400 50  0001 C CNN
+	1    3350 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Transformer_SP_2S T?
+U 1 1 5DA79D6D
+P 2500 1900
+F 0 "T?" H 2500 2481 50  0000 C CNN
+F 1 "Transformer_SP_2S" H 2500 2390 50  0000 C CNN
+F 2 "" H 2500 1900 50  0001 C CNN
+F 3 "~" H 2500 1900 50  0001 C CNN
+	1    2500 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1500 2900 1400
+Wire Wire Line
+	2900 1400 3050 1400
+Wire Wire Line
+	2900 1800 3650 1800
+Wire Wire Line
+	3650 1800 3650 1400
+Wire Wire Line
+	2900 2000 3650 2000
+Wire Wire Line
+	3650 2000 3650 2400
+Wire Wire Line
+	2900 2300 3050 2300
+Wire Wire Line
+	3050 2300 3050 2400
+Wire Wire Line
+	3350 2050 4350 2050
+Wire Wire Line
+	3350 2050 3350 2100
+Connection ~ 4350 2050
+Wire Wire Line
+	3350 1100 3350 1000
+Wire Wire Line
+	3350 1000 4350 1000
+Wire Wire Line
+	4350 1000 4350 1300
+Wire Wire Line
+	4350 1300 4750 1300
+Connection ~ 4350 1300
+Connection ~ 4750 1300
+Wire Wire Line
+	3350 1700 4350 1700
+Wire Wire Line
+	4350 1700 4350 1600
+Connection ~ 4350 1600
+Wire Wire Line
+	3350 1700 3350 2050
+Connection ~ 3350 1700
+Connection ~ 3350 2050
+Wire Wire Line
+	3350 2700 4350 2700
+Wire Wire Line
+	4350 2700 4350 2350
+Connection ~ 4350 2350
+Text HLabel 5550 1300 2    50   Output ~ 0
+21V_UNREG
+Wire Wire Line
+	5150 1300 5550 1300
+Connection ~ 5150 1300
+$EndSCHEMATC
