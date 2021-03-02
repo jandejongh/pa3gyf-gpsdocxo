@@ -1,4 +1,4 @@
-# pa3gyf-gpsdocxo-2016
+# pa3gyf-gpsdocxo
 GPS-Disciplined OCXO
 
 After (a.o.) G3RUH and G4HUP, with PA3GYF additions for monitoring GPS (FIX) status, extra isolation of the (sine) output signals from the PLL, monitoring OCXO heater, monitoring PLL LOCK status, manual frequency tuning (stand-alone OCXO) and stand-alone GPS operation.
