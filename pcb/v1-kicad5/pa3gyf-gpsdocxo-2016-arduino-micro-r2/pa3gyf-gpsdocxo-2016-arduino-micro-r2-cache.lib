@@ -1,0 +1,380 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_+5V
+#
+DEF pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_ARDUINO_MICRO_SHIELD
+#
+DEF pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_ARDUINO_MICRO_SHIELD U 0 40 Y Y 1 F N
+F0 "U" 1750 400 60 H V C CNN
+F1 "pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_ARDUINO_MICRO_SHIELD" 850 600 60 H V C CNN
+F2 "" 400 -50 60 H V C CNN
+F3 "" 400 -50 60 H V C CNN
+DRAW
+S 0 0 1700 950 0 1 0 N
+X 10(PWM)/A10 10 1450 -200 200 U 50 50 1 1 B
+X 11(PWM) 11 1550 -200 200 U 50 50 1 1 B
+X 12/A11 12 1650 -200 200 U 50 50 1 1 B
+X 13(PWM) 13 1650 1150 200 D 50 50 1 1 B
+X 2/SDA 2 650 -200 200 U 50 50 1 1 B
+X 3(PWM)/SCL 3 750 -200 200 U 50 50 1 1 B
+X 3.3V 3.3V 1550 1150 200 D 50 50 1 1 W
+X 4/A6 4 850 -200 200 U 50 50 1 1 B
+X 5(PWM) 5 950 -200 200 U 50 50 1 1 B
+X +5V 5V 550 1150 200 D 50 50 1 1 W
+X 6(PWM)/A7 6 1050 -200 200 U 50 50 1 1 B
+X 7 7 1150 -200 200 U 50 50 1 1 B
+X 8/A8 8 1250 -200 200 U 50 50 1 1 B
+X 9(PWM)/A9 9 1350 -200 200 U 50 50 1 1 B
+X A0 A0 1350 1150 200 D 50 50 1 1 B
+X A1 A1 1250 1150 200 D 50 50 1 1 B
+X A2 A2 1150 1150 200 D 50 50 1 1 B
+X A3 A3 1050 1150 200 D 50 50 1 1 B
+X A4 A4 950 1150 200 D 50 50 1 1 B
+X A5 A5 850 1150 200 D 50 50 1 1 B
+X AREF AREF 1450 1150 200 D 50 50 1 1 W
+X GND GND 350 1150 200 D 50 50 1 1 W
+X GND GND 550 -200 200 U 50 50 1 1 W
+X MISO MI 150 1150 200 D 50 50 1 1 B
+X MOSI MO 50 -200 200 U 50 50 1 1 B
+X ~ NC 650 1150 200 D 50 50 1 1 N
+X ~ NC 750 1150 200 D 50 50 1 1 N
+X RESET RST 450 -200 200 U 50 50 1 1 B
+X RESET RST 450 1150 200 D 50 50 1 1 B
+X 0/RX RX 350 -200 200 U 50 50 1 1 B
+X SCK SCK 50 1150 200 D 50 50 1 1 B
+X RX_LED/SS SS 150 -200 200 U 50 50 1 1 B
+X 1/TX TX 250 -200 200 U 50 50 1 1 B
+X VIN VI 250 1150 200 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_BC547
+#
+DEF pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_BC547 Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_BC547" 200 0 50 H V L CNN
+F2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+ALIAS BC546 BC548 BC549 BC550 BC337 BC338
+$FPLIST
+ TO?92*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 0 0 25 0 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X C 1 100 200 100 D 50 50 1 1 P
+X B 2 -200 0 200 R 50 50 1 1 I
+X E 3 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_CONN_01X02
+#
+DEF pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_CONN_01X02 P 0 40 Y N 1 F N
+F0 "P" 0 150 50 H V C CNN
+F1 "pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_CONN_01X02" 100 0 50 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X02
+ Pin_Header_Angled_1X02
+ Socket_Strip_Straight_1X02
+ Socket_Strip_Angled_1X02
+$ENDFPLIST
+DRAW
+S -50 -45 10 -55 0 1 0 N
+S -50 55 10 45 0 1 0 N
+S -50 100 50 -100 0 1 0 N
+X P1 1 -200 50 150 R 50 50 1 1 P
+X P2 2 -200 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_CONN_02X02
+#
+DEF pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_CONN_02X02 P 0 1 Y N 1 F N
+F0 "P" 0 150 50 H V C CNN
+F1 "pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_CONN_02X02" 0 -150 50 H V C CNN
+F2 "" 0 -1200 60 H V C CNN
+F3 "" 0 -1200 60 H V C CNN
+$FPLIST
+ Pin_Header_Straight_2X02
+ Pin_Header_Angled_2X02
+ Socket_Strip_Straight_2X02
+ Socket_Strip_Angled_2X02
+$ENDFPLIST
+DRAW
+S -100 -45 -50 -55 0 1 0 N
+S -100 55 -50 45 0 1 0 N
+S -100 100 100 -100 0 1 0 N
+S 50 -45 100 -55 0 1 0 N
+S 50 55 100 45 0 1 0 N
+X P1 1 -250 50 150 R 50 50 1 1 P
+X P2 2 250 50 150 L 50 50 1 1 P
+X P3 3 -250 -50 150 R 50 50 1 1 P
+X P4 4 250 -50 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_CONN_02X03
+#
+DEF pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_CONN_02X03 P 0 1 Y N 1 F N
+F0 "P" 0 200 50 H V C CNN
+F1 "pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_CONN_02X03" 0 -200 50 H V C CNN
+F2 "" 0 -1200 60 H V C CNN
+F3 "" 0 -1200 60 H V C CNN
+$FPLIST
+ Pin_Header_Straight_2X03
+ Pin_Header_Angled_2X03
+ Socket_Strip_Straight_2X03
+ Socket_Strip_Angled_2X03
+$ENDFPLIST
+DRAW
+S -100 -95 -50 -105 0 1 0 N
+S -100 5 -50 -5 0 1 0 N
+S -100 105 -50 95 0 1 0 N
+S -100 150 100 -150 0 1 0 N
+S 50 -95 100 -105 0 1 0 N
+S 50 5 100 -5 0 1 0 N
+S 50 105 100 95 0 1 0 N
+X P1 1 -250 100 150 R 50 50 1 1 P
+X P2 2 250 100 150 L 50 50 1 1 P
+X P3 3 -250 0 150 R 50 50 1 1 P
+X P4 4 250 0 150 L 50 50 1 1 P
+X P5 5 -250 -100 150 R 50 50 1 1 P
+X P6 6 250 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_CONN_02X05
+#
+DEF pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_CONN_02X05 P 0 1 Y N 1 F N
+F0 "P" 0 300 50 H V C CNN
+F1 "pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_CONN_02X05" 0 -300 50 H V C CNN
+F2 "" 0 -1200 60 H V C CNN
+F3 "" 0 -1200 60 H V C CNN
+$FPLIST
+ Pin_Header_Straight_2X05
+ Pin_Header_Angled_2X05
+ Socket_Strip_Straight_2X05
+ Socket_Strip_Angled_2X05
+$ENDFPLIST
+DRAW
+S -100 -195 -50 -205 0 1 0 N
+S -100 -95 -50 -105 0 1 0 N
+S -100 5 -50 -5 0 1 0 N
+S -100 105 -50 95 0 1 0 N
+S -100 205 -50 195 0 1 0 N
+S -100 250 100 -250 0 1 0 N
+S 50 -195 100 -205 0 1 0 N
+S 50 -95 100 -105 0 1 0 N
+S 50 5 100 -5 0 1 0 N
+S 50 105 100 95 0 1 0 N
+S 50 205 100 195 0 1 0 N
+X P1 1 -250 200 150 R 50 50 1 1 P
+X P10 10 250 -200 150 L 50 50 1 1 P
+X P2 2 250 200 150 L 50 50 1 1 P
+X P3 3 -250 100 150 R 50 50 1 1 P
+X P4 4 250 100 150 L 50 50 1 1 P
+X P5 5 -250 0 150 R 50 50 1 1 P
+X P6 6 250 0 150 L 50 50 1 1 P
+X P7 7 -250 -100 150 R 50 50 1 1 P
+X P8 8 250 -100 150 L 50 50 1 1 P
+X P9 9 -250 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_CP_Small
+#
+DEF pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_CP_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_CP_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_C_Small
+#
+DEF pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_D-RESCUE-pa3gyf-gpsdocxo-arduino-r2
+#
+DEF pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_D-RESCUE-pa3gyf-gpsdocxo-arduino-r2 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_D-RESCUE-pa3gyf-gpsdocxo-arduino-r2" 0 -100 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+$ENDFPLIST
+DRAW
+P 2 0 1 6 50 50 50 -50 N
+P 3 0 1 0 -50 50 50 0 -50 -50 F
+X A 1 -150 0 100 R 40 40 1 1 P
+X K 2 150 0 100 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_D_Small-RESCUE-pa3gyf-gpsdocxo-arduino-r2
+#
+DEF pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_D_Small-RESCUE-pa3gyf-gpsdocxo-arduino-r2 D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_D_Small-RESCUE-pa3gyf-gpsdocxo-arduino-r2" -150 -80 50 H V L CNN
+F2 "" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *SingleDiode*
+ *_Diode_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 30 -40 30 40 N
+P 4 0 1 0 -30 -40 30 0 -30 40 -30 -40 F
+X A 1 -100 0 70 R 40 40 1 1 P
+X C 2 100 0 70 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_GND
+#
+DEF pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_MAX233_DIP
+#
+DEF pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_MAX233_DIP U 0 40 Y Y 1 F N
+F0 "U" -450 850 50 H V L CNN
+F1 "pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_MAX233_DIP" 0 850 50 H V L CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -450 -500 450 800 0 1 10 f
+X T2IN 1 -600 600 150 R 50 50 1 1 I
+X CS- 10 600 -200 150 L 50 50 1 1 B
+X C2+ 11 600 200 150 L 50 50 1 1 B
+X V- 12 -600 -100 150 R 50 50 1 1 B
+X C1- 13 -600 100 150 R 50 50 1 1 N
+X V+ 14 -600 -400 150 R 50 50 1 1 U
+X C2+ 15 600 100 150 L 50 50 1 1 B
+X C2- 16 600 -100 150 L 50 50 1 1 B
+X V- 17 -600 -200 150 R 50 50 1 1 B
+X T2OUT 18 600 600 150 L 50 50 1 1 O
+X R2IN 19 600 400 150 L 50 50 1 1 I
+X T1IN 2 -600 700 150 R 50 50 1 1 I
+X R2OUT 20 -600 400 150 R 50 50 1 1 O
+X R1OUT 3 -600 500 150 R 50 50 1 1 O
+X R1IN 4 600 500 150 L 50 50 1 1 I
+X T1OUT 5 600 700 150 L 50 50 1 1 O
+X GND 6 -100 -650 150 U 50 50 1 1 W
+X VCC 7 0 950 150 D 50 50 1 1 W
+X C1+ 8 -600 200 150 R 50 50 1 1 N
+X GND 9 100 -650 150 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_PWR_FLAG
+#
+DEF pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_R
+#
+DEF pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_R_Small
+#
+DEF pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_R_Small R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "pa3gyf-gpsdocxo-2016-arduino-micro-r2-cache-saved_R_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

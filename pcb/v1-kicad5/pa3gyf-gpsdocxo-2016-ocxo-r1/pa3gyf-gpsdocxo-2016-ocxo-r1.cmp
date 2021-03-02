@@ -1,0 +1,213 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Sun 30 Oct 2016 07:22:24 PM CET
+
+BeginCmp
+TimeStamp = /581AF58E;
+Reference = C1;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /581CFFE7;
+Reference = C2;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /581732B9;
+Reference = C3;
+ValeurCmp = 10u;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /58196A32;
+Reference = C4;
+ValeurCmp = 10u;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5814E2CE;
+Reference = C5;
+ValeurCmp = 1n;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5814C92B;
+Reference = C6;
+ValeurCmp = 1n;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5814E2D4;
+Reference = C7;
+ValeurCmp = 1n;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5814C99D;
+Reference = C8;
+ValeurCmp = 1n;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /581547A8;
+Reference = C9;
+ValeurCmp = 100u;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_11.5x8mm_RM3.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5815459F;
+Reference = C10;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5814E2DA;
+Reference = L1;
+ValeurCmp = 22uH;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5814C9F0;
+Reference = L2;
+ValeurCmp = 22uH;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /581470B1;
+Reference = P1;
+ValeurCmp = CONN_OCXO_UREG;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5818DB69;
+Reference = P2;
+ValeurCmp = CONN_01X08;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x08;
+EndCmp
+
+BeginCmp
+TimeStamp = /581CEAA6;
+Reference = P3;
+ValeurCmp = CONN_PWR_MON;
+IdModule  = Pin_Headers:Pin_Header_Angled_2x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /58151200;
+Reference = P4;
+ValeurCmp = CONN_OCXO_RF_1;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5814AEC3;
+Reference = P5;
+ValeurCmp = CONN_OCXO_RF_2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /581A4527;
+Reference = R1;
+ValeurCmp = 2R/5W;
+IdModule  = Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L23mm-W9mm-H9mm-p30mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /581399BC;
+Reference = R2;
+ValeurCmp = InfR;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /58139A2F;
+Reference = R3;
+ValeurCmp = 0R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /58139A05;
+Reference = R4;
+ValeurCmp = InfR;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5813B728;
+Reference = R5;
+ValeurCmp = InfR;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5813B042;
+Reference = R6;
+ValeurCmp = InfR;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5813B734;
+Reference = R7;
+ValeurCmp = 0R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5813B04E;
+Reference = R8;
+ValeurCmp = 0R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5813B72E;
+Reference = R9;
+ValeurCmp = InfR;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5813B048;
+Reference = R10;
+ValeurCmp = InfR;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /581A03B5;
+Reference = U1;
+ValeurCmp = 78S12;
+IdModule  = Transistors_TO-220:TO-220_Neutral123_Vertical_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = /581610ED;
+Reference = U2;
+ValeurCmp = MV89;
+IdModule  = MORION_FULLMETA:MV89;
+EndCmp
+
+BeginCmp
+TimeStamp = /5815BA0F;
+Reference = U3;
+ValeurCmp = ADP-2-1;
+IdModule  = MiniCircuits:CD636;
+EndCmp
+
+EndListe

@@ -1,0 +1,185 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Tue 01 Nov 2016 11:56:08 PM CET
+
+BeginCmp
+TimeStamp = /58078FB7;
+Reference = C1;
+ValeurCmp = 2200u;
+IdModule  = elkos:Elko_vert_30x16mm_RM7.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5807C390;
+Reference = C2;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5807901A;
+Reference = C3;
+ValeurCmp = 2200u;
+IdModule  = elkos:Elko_vert_30x16mm_RM7.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5807C408;
+Reference = C4;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5808FBA9;
+Reference = C5;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5808F060;
+Reference = C6;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5808A06D;
+Reference = C7;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /580D1161;
+Reference = C8;
+ValeurCmp = 2200u;
+IdModule  = elkos:Elko_vert_30x16mm_RM7.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /580D1D5B;
+Reference = C9;
+ValeurCmp = 2200u;
+IdModule  = elkos:Elko_vert_30x16mm_RM7.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /580A0D09;
+Reference = C10;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /580A5F3B;
+Reference = C11;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5818D437;
+Reference = D1;
+ValeurCmp = KBL_10;
+IdModule  = pa3gyf-kicad:Bridge_KBL;
+EndCmp
+
+BeginCmp
+TimeStamp = /581991F5;
+Reference = D2;
+ValeurCmp = W10;
+IdModule  = pa3gyf-kicad:W10;
+EndCmp
+
+BeginCmp
+TimeStamp = /58078305;
+Reference = F1;
+ValeurCmp = F_Small;
+IdModule  = Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /580783C8;
+Reference = F2;
+ValeurCmp = F_Small;
+IdModule  = Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /58077D97;
+Reference = P1;
+ValeurCmp = CONN_01X02;
+IdModule  = weidmuller:Weidmuller_GS5_2_2pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /58077EE7;
+Reference = P2;
+ValeurCmp = CONN_01X02;
+IdModule  = weidmuller:Weidmuller_GS5_2_2pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /58077F54;
+Reference = P3;
+ValeurCmp = CONN_01X02;
+IdModule  = weidmuller:Weidmuller_GS5_2_2pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /58078049;
+Reference = P4;
+ValeurCmp = CONN_01X02;
+IdModule  = weidmuller:Weidmuller_GS5_2_2pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /580780AE;
+Reference = P5;
+ValeurCmp = CONN_01X02;
+IdModule  = weidmuller:Weidmuller_GS5_2_2pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /58094C7F;
+Reference = P6;
+ValeurCmp = CONN_01X02;
+IdModule  = weidmuller:Weidmuller_GS5_2_2pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /58081143;
+Reference = R1;
+ValeurCmp = 2k2;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /58080B17;
+Reference = R2;
+ValeurCmp = 2k2;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5807A919;
+Reference = U1;
+ValeurCmp = LM7812;
+IdModule  = Discret:LM78XXV;
+EndCmp
+
+BeginCmp
+TimeStamp = /5807A9B1;
+Reference = U2;
+ValeurCmp = LM7812;
+IdModule  = Discret:LM78XXV;
+EndCmp
+
+BeginCmp
+TimeStamp = /5807A34A;
+Reference = U3;
+ValeurCmp = 7805;
+IdModule  = Discret:LM78XXV;
+EndCmp
+
+EndListe
